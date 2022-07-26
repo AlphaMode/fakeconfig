@@ -9,14 +9,5 @@
   ],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/fakeconfig/icon.png",
-  "environment": "*",
-  "entrypoints": {
-    "client": [
-      "me.alphamode.fakeconfig.client.FakeconfigClient"
-    ],
-    "main": [
-      "me.alphamode.fakeconfig.Fakeconfig"
-    ]
-  }
+  "environment": "*"
 }
