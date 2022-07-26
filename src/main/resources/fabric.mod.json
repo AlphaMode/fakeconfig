@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "com_electronwill_night-config_core",
+  "version": "${version}",
+  "name": "Fake Config Core",
+  "description": "",
+  "authors": [
+    "AlphaMode"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/fakeconfig/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.alphamode.fakeconfig.client.FakeconfigClient"
+    ],
+    "main": [
+      "me.alphamode.fakeconfig.Fakeconfig"
+    ]
+  }
+}
